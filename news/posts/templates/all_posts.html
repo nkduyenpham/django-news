@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block title %}
+    World News
+{% endblock %}
+
+{% block content %}
+    <h1>Lastest News</h1>
+    <p><a href="/">HOME</a></p>
+    <ul>
+        {% for x in allposts %}
+                <h2>{{ x.title }}</h2>
+                <p>{{ x.author }}</p>
+                <a href="details/{{ x.id }}">
+                    <button>See Details</button>
+                </a>
+        {% endfor %}
+    </ul>
+{% endblock %}
