@@ -19,11 +19,11 @@ This Django News Website is a web application that utilizes external APIs to fet
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/your-username/django-news-website.git
-   cd django-news-website
+   cd django-news-website ```
 
 2. **Create a virtual environment:**
   ```bash
-  python -m venv venv
+  python -m venv venv ```
 
 3. **Activate the virtual environment:**
 
