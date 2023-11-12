@@ -4,6 +4,10 @@
 
 This Django News Website is a web application that utilizes external APIs to fetch and display news information. The project is built using the Django framework, providing a robust and scalable structure for managing and presenting news articles.
 
+Here is the UI of the project
+
+![News Website UI](https://github.com/nkduyenpham/django-news/blob/main/Simple%20News%20Website%20UI.png)
+
 ## Features
 
 - **API Integration:** The website fetches news information from external APIs, ensuring up-to-date and relevant content.
