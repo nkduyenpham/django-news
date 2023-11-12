@@ -21,51 +21,51 @@ Here is the UI of the project
 ## Installation
 
 1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/your-username/django-news-website.git
-   cd django-news-website
-   ```
+```bash
+git clone https://github.com/your-username/django-news-website.git
+cd django-news-website
+```
 
 2. **Create a virtual environment:**
-  ```bash
-  python -m venv venv
+```bash
+python -m venv venv
 ```
 
 3. **Activate the virtual environment:**
 
-  On Windows:
-  ```bash
-  .\venv\Scripts\activate
+On Windows:
+```bash
+.\venv\Scripts\activate
 ```
-  On macOS and Linux:
-  ```bash
-  source venv/bin/activate
+On macOS and Linux:
+```bash
+source venv/bin/activate
 ```
 
 4. **Install dependencies:**
 
-  ```bash
-  pip install -r requirements.txt
+```bash
+pip install -r requirements.txt
 ```
 
 5. **Apply database migrations:**
 
-  ```bash
-  python manage.py migrate
+```bash
+python manage.py migrate
 ```
 6. **Run the development server:**
 
-  ```bash
-  python manage.py runserver
+```bash
+python manage.py runserver
 ```
 7. **Access the website:**
 
-  Open your web browser and go to http://localhost:8000/ to view the Django News Website.
+Open your web browser and go to http://localhost:8000/ to view the Django News Website.
 
 ## Configuration
 
 ### API Key:
-Obtain an API key from your preferred news API provider and update the NEWS_API_KEY variable in the settings.py file.
+Obtain an API key from your preferred news API provider and update the `api_key` variable in the views.py file.
 
 ### Database Configuration:
 Adjust database settings in the settings.py file if needed. By default, the project is configured to use SQLite.
