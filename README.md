@@ -19,37 +19,41 @@ This Django News Website is a web application that utilizes external APIs to fet
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/your-username/django-news-website.git
-   cd django-news-website ```
+   cd django-news-website
+   ```
 
 2. **Create a virtual environment:**
   ```bash
-  python -m venv venv ```
+  python -m venv venv
+```
 
 3. **Activate the virtual environment:**
 
   On Windows:
   ```bash
-  Copy code
   .\venv\Scripts\activate
+```
   On macOS and Linux:
   ```bash
   source venv/bin/activate
+```
 
 4. **Install dependencies:**
 
   ```bash
   pip install -r requirements.txt
+```
 
 5. **Apply database migrations:**
 
   ```bash
   python manage.py migrate
-
+```
 6. **Run the development server:**
 
   ```bash
   python manage.py runserver
-
+```
 7. **Access the website:**
 
   Open your web browser and go to http://localhost:8000/ to view the Django News Website.
