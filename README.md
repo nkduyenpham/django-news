@@ -67,6 +67,8 @@ Open your web browser and go to http://localhost:8000/ to view the Django News W
 ### API Key:
 Obtain an API key from your preferred news API provider and update the `api_key` variable in the views.py file.
 
+For my project, I used API from News API (https://newsapi.org/) 
+
 ### Database Configuration:
 Adjust database settings in the settings.py file if needed. By default, the project is configured to use SQLite.
 
